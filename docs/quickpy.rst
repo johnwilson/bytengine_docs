@@ -1,6 +1,8 @@
-***********************
+.. _quick-py:
+
 Quick Tutorial - Python
-***********************
+=======================
+
 This guide will give you a quick overview of a few Bytengine api calls.
 
 This guide assumes that you be running Bytengine locally on its default ports.

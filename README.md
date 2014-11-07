@@ -12,12 +12,14 @@ you can start coding in your favorite language!
 digital assets in a pseudo hierarchical file system which you query using it's 
 inbuilt SQL like language.
 
-Some of the server's features are:
+## Build the documentation
 
-* JSON data management
-* Digital assets management
-* HTTP based API
-* Bytengine Query language (BQL)
-* Pluggable data storage backends (currently supports Mongodb, Diskv, Redis)
-* Documentation **[readthedocs](https://bytengine.readthedocs.org/en/latest/) - readthedocs**
-* Command line interface **[bshell](http://github.com/johnwilson/bshell/ "bshell")**
+Requires **[Mongodb](http://docs.mongodb.org/manual/installation/ "Mongodb")**
+to build the docs locally. Once installed run the following
+
+```
+    cd $BYTENGINE_DOCS_LOCATION/docs
+    export LOCAL_BUILD=True # to use the 'read the docs theme'
+    make clean
+    make html
+```

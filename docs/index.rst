@@ -14,13 +14,15 @@ Typical usage:
     * Content Management System backend
     * Document Management System backend
     * Digital assets storage and delivery server
-    * Regular application data backend
+    * Questionnaire application repository
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
 
-    page_1
-    page_2
-    page_3
-    tutorial/index
-
+    quickpy
+    quickbshell
+    whybeng
+    cmdserver
+    cmduser
+    cmdfs
+    
