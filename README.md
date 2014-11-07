@@ -14,7 +14,7 @@ inbuilt SQL like language.
 
 ## Build the documentation
 
-Requires **[Mongodb](http://docs.mongodb.org/manual/installation/ "Mongodb")**
+Requires **[sphinx](http://sphinx-doc.org/index.html "sphinx")**
 to build the docs locally. Once installed run the following
 
 ```
