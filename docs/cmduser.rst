@@ -158,7 +158,7 @@ user.whoami
         "status": "ok",
         "data": {
             "databases": [],
-            "isroot": false,
+            "root": false,
             "username": "user1"
         }
     }
