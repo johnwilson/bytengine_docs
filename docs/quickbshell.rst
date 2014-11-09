@@ -112,5 +112,7 @@ You should see the following response
         "status": "ok"
     }
 
+As we can see, the result for each of the commands issued is returned by the server.
+
 The bshell example is less verbose than the python one which makes it an essential
 tool when working with Bytengine.
