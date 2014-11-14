@@ -3,6 +3,8 @@
 User Commands
 =============
 
+User commands can only be run by a user who has **root** access except **user.whoami**.
+
 user.new
 --------
 
