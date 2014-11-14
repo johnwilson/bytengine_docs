@@ -25,4 +25,5 @@ Typical usage:
     cmdserver
     cmduser
     cmdfs
+    cmdfsadv
     
