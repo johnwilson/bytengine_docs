@@ -26,4 +26,7 @@ Typical usage:
     cmduser
     cmdfs
     cmdfsadv
+    funcs
+    direct
+    config
     

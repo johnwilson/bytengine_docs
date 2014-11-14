@@ -241,7 +241,7 @@ database.makepublic
 -------------------
 
 **database.makepublic** makes a file publicly available which means it can be
-accessed directly without authentication. View [link] for further details. All
+accessed directly without authentication. View :ref:`direct-access` for further details. All
 files are private by default.
 
 **Return Value**:
