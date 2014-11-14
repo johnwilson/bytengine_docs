@@ -10,7 +10,7 @@ and Directory names cannot include spaces.
 database.newdir
 ---------------
 
-**database.newdir** reates a directory at the given path. Paths are unix/linux 
+**database.newdir** creates a directory at the given path. Paths are unix/linux 
 style paths (i.e. with forward slash separator) and the last element in the path
 will be the name of the directory. The **root directory ('/')** is created by 
 default and cannot be modified.
