@@ -29,4 +29,5 @@ Typical usage:
     funcs
     direct
     config
+    custom
     
