@@ -17,4 +17,6 @@ view the filter function plugin code implementation in
 
 **Example**::
 
+    @db1.select "name" in /users >> pretty
+    
     @db1.select "name" in /users >> my_custom_function
