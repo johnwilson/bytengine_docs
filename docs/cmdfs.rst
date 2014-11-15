@@ -237,6 +237,8 @@ parent directory, type etc...
     @db1.info /
     @db1.info /var/logs/filelog.1
 
+.. _cmd-fs-makepublic:
+
 database.makepublic
 -------------------
 
