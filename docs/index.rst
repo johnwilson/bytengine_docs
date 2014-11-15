@@ -22,6 +22,7 @@ Typical usage:
     quickpy
     quickbshell
     whybeng
+    httpapi
     cmdserver
     cmduser
     cmdfs
