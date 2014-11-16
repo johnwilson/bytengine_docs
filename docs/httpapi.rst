@@ -14,7 +14,7 @@ Quick reference
 +======================================+===========+=============================+
 | `/`                                  | GET       | :ref:`http-api-welcome`     |
 +--------------------------------------+-----------+-----------------------------+
-| `/bfs/token`                         | POST      | Get an authentication token |
+| `/bfs/token`                         | POST      | :ref:`http-api-auth`        |
 +--------------------------------------+-----------+-----------------------------+
 | `/bfs/query`                         | POST      | Send a BQL request          |
 +--------------------------------------+-----------+-----------------------------+
@@ -43,4 +43,30 @@ you're connected to the server when writing clients in your prefered language.
 
 .. code-block:: javascript
 
-    {"bytengine":"Welcome","version":"0.2.0"}
+    {
+        "bytengine": "Welcome",
+        "version": "0.2.0"
+    }
+
+.. _http-api-auth:
+
+Get an authentication token
+---------------------------
+
+Gets an authentication token from the server that must be included in POST requests
+to interact with content.
+
+**Example**::
+
+    curl -X POST \
+        -d 'username=admin&password=password' \
+        http://localhost:8500/bfs/token
+
+**Return Value**:
+
+.. code-block:: javascript
+
+    {
+        "data": [token as a string],
+        "status": "ok"
+    }
