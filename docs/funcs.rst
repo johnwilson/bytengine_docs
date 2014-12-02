@@ -13,7 +13,7 @@ bfs command.
 Currently only a sample function ``pretty`` which pretty prints bfs commands is
 included as an example but further useful ones will be added eventually. You can
 view the filter function plugin code implementation in 
-`/bytengine/fltcore/fltcore.go <https://github.com/johnwilson/bytengine/blob/master/fltcore/fltcore.go>`_.
+`/bytengine/fltcore/fltcore.go <https://github.com/johnwilson/bytengine/blob/master/datafilter/builtin/builtin.go>`_.
 
 **Example**::
 

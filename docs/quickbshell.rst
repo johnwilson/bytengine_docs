@@ -17,7 +17,7 @@ also assume that you have Bytengine installed.
 
 .. code-block:: bash
     
-    go get github.com/johnwilson/bshell
+    go get github.com/johnwilson/bytengine/cmd/bshell
     bshell run -u=admin -p=password
 
 **Create database**
