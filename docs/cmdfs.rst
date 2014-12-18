@@ -72,10 +72,10 @@ added to limit the returned data.
     @db1.readfile /var/logs/file1.log
     @db1.readfile /var/logs/file1.log ["field1", "field1.field1_1"]
 
-database.modfile
-----------------
+database.updatefile
+-------------------
 
-**database.modfile** overwrites the JSON layer of a file.
+**database.updatefile** overwrites the JSON layer of a file.
 
 **Return Value**:
 
@@ -88,7 +88,7 @@ database.modfile
 
 **Example**::
 
-    @db1.modfile /var/logs/file1.log {"field1":{"field1_1": "value"}}
+    @db1.updatefile /var/logs/file1.log {"field1":{"field1_1": "value"}}
 
 database.deletebytes
 --------------------
